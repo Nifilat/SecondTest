@@ -1,0 +1,134 @@
+body {
+ max-width: 600px;
+ margin: 50px auto;
+ padding: 10px;
+
+}
+
+/* .heading {
+  text-align: center;
+  
+} */
+
+#header {
+ padding: 20px 0px 0px;
+ text-align: justify;
+
+}
+
+/* #header h1{
+font-size: 95px;
+text-align:justify;
+font-family:serif;
+margin:0;
+line-height:60px;
+
+} */
+
+p {
+ word-break: break-all;
+ font-family: 'Rozha One',
+  serif;
+}
+
+#small-text {
+ display: flex;
+ justify-content: space-between;
+ font-size: 27px;
+ color: gray;
+ flex-wrap: wrap;
+
+}
+
+#small-text h3 {
+ margin: 0;
+}
+
+#big-text {
+ display: flex;
+ justify-content: space-between;
+ font-size: 52px;
+ font-family: serif;
+ margin: 0;
+ line-height: 0.8;
+ flex-wrap: wrap;
+
+}
+
+/* line heigt works with px and with percentage */
+/* what i added there is the same as adding it as 80%, it can also work with em and rem units */
+
+#big-text h1 {
+ margin: 0px;
+}
+
+
+#Headline {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ font-size: 19px;
+ font-family: 'Rozha One',
+  serif;
+ flex-wrap: wrap;
+}
+
+#healdine p {
+ min-width: 300px
+}
+
+.flex-container {
+ display: flex;
+ justify-content: space-between;
+ gap: 10%;
+ text-align: justify;
+}
+
+#image {
+ margin-top: 20px;
+ width: 100%;
+ flex: 1;
+ background: #b3b3b3;
+ min-height: 400px;
+}
+
+.left {
+ flex: 1;
+}
+
+.right {
+ flex: 1;
+ align-self: stretch;
+ display: flex;
+ flex-direction: column;
+}
+
+.right .flex-container {
+ flex: 0
+}
+
+#city {
+ color: grey;
+ flex-wrap: wrap;
+
+
+}
+
+section.flex-container {
+ flex-wrap: wrap
+}
+
+.right,
+.left {
+ min-width: 200px;
+ width: 100%;
+}
+
+.right .flex-container {
+ flex-direction: row;
+ flex-wrap: wrap
+}
+
+.right .flex-container p {
+ min-width: 80px;
+}
